@@ -18,6 +18,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.hoaxify.hoaxify.user.User;
 import com.hoaxify.hoaxify.user.UserRepository;
 
+import java.util.List;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
@@ -56,6 +58,14 @@ public class UserControllerTest {
 		User user = createValidUser();
 		ResponseEntity<GenericResponce> response = testRestTemplate.postForEntity(API_1_0_USERS, user, GenericResponce.class);
 		assertThat(response.getBody().getMessage()).isNotNull();
+	}
+	@Test
+	public void postUser_whenUserIsValid_passwordIsHashedInDatabase(){
+		User user = createValidUser();
+		testRestTemplate.postForEntity(API_1_0_USERS, user, Object.class);
+		List<User> users = userRepository.findAll();
+		User inDB = users.get(0);
+		assertThat(inDB.getPassword()).isNotEqualTo(user.getPassword());
 	}
 
 	private User createValidUser() {
