@@ -4,6 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/hoaxify-backend/pom.xml" />
         <option value="$PROJECT_DIR$/Backend/hoaxify/pom.xml" />
       </list>
     </option>
