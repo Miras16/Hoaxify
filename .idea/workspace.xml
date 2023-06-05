@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="user-signup-page-first-test" />
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="signup-form-layout">
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/UserSignupPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/UserSignupPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/UserSignupPage.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/UserSignupPage.spec.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685880049122</updated>
       <workItem from="1685880050295" duration="196000" />
-      <workItem from="1685943298573" duration="899000" />
+      <workItem from="1685943298573" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685887750065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="signup-form-layout">
+      <created>1685945239687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685945239687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
     <MESSAGE value="success-response-body" />
     <MESSAGE value="hashing-password" />
     <MESSAGE value="user-signup-page-first-test" />
-    <option name="LAST_COMMIT_MESSAGE" value="user-signup-page-first-test" />
+    <MESSAGE value="signup-form-layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="signup-form-layout" />
   </component>
 </project>
