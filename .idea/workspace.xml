@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="handling-button-click">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.UserControllerTest">
+  <component name="RunManager" selected="Spring Boot.HoaxifyApplication">
     <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
       <extension name="coverage">
@@ -96,7 +97,8 @@
       <updated>1685880049122</updated>
       <workItem from="1685880050295" duration="196000" />
       <workItem from="1685943298573" duration="2774000" />
-      <workItem from="1686023564188" duration="934000" />
+      <workItem from="1686023564188" duration="3413000" />
+      <workItem from="1686039795412" duration="2411000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -140,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685969527818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="styling">
+      <created>1686028684600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686028684600</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +162,7 @@
     <MESSAGE value="signup-form-layout" />
     <MESSAGE value="handling-input-changes" />
     <MESSAGE value="handling-button-click" />
-    <option name="LAST_COMMIT_MESSAGE" value="handling-button-click" />
+    <MESSAGE value="styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling" />
   </component>
 </project>
