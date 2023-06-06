@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="styling">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="sending-request-to-backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1685880050295" duration="196000" />
       <workItem from="1685943298573" duration="2774000" />
       <workItem from="1686023564188" duration="3413000" />
-      <workItem from="1686039795412" duration="2411000" />
+      <workItem from="1686039795412" duration="3943000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -149,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686028684600</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sending-request-to-backend">
+      <created>1686044750432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686044750432</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sending-request-to-backend">
+      <created>1686044793729</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686044793729</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +175,7 @@
     <MESSAGE value="handling-input-changes" />
     <MESSAGE value="handling-button-click" />
     <MESSAGE value="styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling" />
+    <MESSAGE value="sending-request-to-backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="sending-request-to-backend" />
   </component>
 </project>

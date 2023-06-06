@@ -1,8 +1,15 @@
 import React from 'react';
-import { render, cleanup, fireEvent } from '@testing-library/react';
+import {
+  render,
+  cleanup,
+  fireEvent,
+  waitForDomChange
+} from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { UserSignupPage } from './UserSignupPage';
+
 beforeEach(cleanup);
+
 describe('UserSignupPage', () => {
   describe('Layout', () => {
     it('has header of Sign Up', () => {
@@ -55,6 +62,16 @@ describe('UserSignupPage', () => {
       };
     };
 
+    const mockAsyncDelayed = () => {
+      return jest.fn().mockImplementation(() => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve({});
+          }, 300);
+        });
+      });
+    };
+
     let button, displayNameInput, usernameInput, passwordInput, passwordRepeat;
 
     const setupForSubmit = (props) => {
@@ -79,24 +96,34 @@ describe('UserSignupPage', () => {
     it('sets the displayName value into state', () => {
       const { queryByPlaceholderText } = render(<UserSignupPage />);
       const displayNameInput = queryByPlaceholderText('Your display name');
+
       fireEvent.change(displayNameInput, changeEvent('my-display-name'));
+
       expect(displayNameInput).toHaveValue('my-display-name');
     });
+
     it('sets the username value into state', () => {
       const { queryByPlaceholderText } = render(<UserSignupPage />);
       const usernameInput = queryByPlaceholderText('Your username');
+
       fireEvent.change(usernameInput, changeEvent('my-user-name'));
+
       expect(usernameInput).toHaveValue('my-user-name');
     });
+
     it('sets the password value into state', () => {
       const { queryByPlaceholderText } = render(<UserSignupPage />);
       const passwordInput = queryByPlaceholderText('Your password');
+
       fireEvent.change(passwordInput, changeEvent('P4ssword'));
+
       expect(passwordInput).toHaveValue('P4ssword');
     });
+
     it('sets the password repeat value into state', () => {
       const { queryByPlaceholderText } = render(<UserSignupPage />);
       const passwordRepeat = queryByPlaceholderText('Repeat your password');
+
       fireEvent.change(passwordRepeat, changeEvent('P4ssword'));
 
       expect(passwordRepeat).toHaveValue('P4ssword');
@@ -129,5 +156,62 @@ describe('UserSignupPage', () => {
       };
       expect(actions.postSignup).toHaveBeenCalledWith(expectedUserObject);
     });
+
+    it('does not allow user to click the Sign Up button when there is an ongoing api call', () => {
+      const actions = {
+        postSignup: mockAsyncDelayed()
+      };
+      setupForSubmit({ actions });
+      fireEvent.click(button);
+
+      fireEvent.click(button);
+      expect(actions.postSignup).toHaveBeenCalledTimes(1);
+    });
+
+    it('displays spinner when there is an ongoing api call', () => {
+      const actions = {
+        postSignup: mockAsyncDelayed()
+      };
+      const { queryByText } = setupForSubmit({ actions });
+      fireEvent.click(button);
+
+      const spinner = queryByText('Loading...');
+      expect(spinner).toBeInTheDocument();
+    });
+
+    it('hides spinner after api call finishes successfully', async () => {
+      const actions = {
+        postSignup: mockAsyncDelayed()
+      };
+      const { queryByText } = setupForSubmit({ actions });
+      fireEvent.click(button);
+
+      await waitForDomChange();
+
+      const spinner = queryByText('Loading...');
+      expect(spinner).not.toBeInTheDocument();
+    });
+
+    it('hides spinner after api call finishes with error', async () => {
+      const actions = {
+        postSignup: jest.fn().mockImplementation(() => {
+          return new Promise((resolve, reject) => {
+            setTimeout(() => {
+              reject({
+                response: { data: {} }
+              });
+            }, 300);
+          });
+        })
+      };
+      const { queryByText } = setupForSubmit({ actions });
+      fireEvent.click(button);
+
+      await waitForDomChange();
+
+      const spinner = queryByText('Loading...');
+      expect(spinner).not.toBeInTheDocument();
+    });
   });
 });
+console.error = () => {};
