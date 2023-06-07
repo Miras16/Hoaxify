@@ -3,6 +3,7 @@ package com.hoaxify.hoaxify;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.InstanceOfAssertFactories.INT_STREAM;
 
+import com.hoaxify.hoaxify.error.ApiError;
 import com.hoaxify.hoaxify.shared.GenericResponce;
 import org.junit.Before;
 import org.junit.Test;
@@ -171,6 +172,21 @@ public class UserControllerTest {
 		user.setPassword("123456789");
 		ResponseEntity<Object> response = postSignup(user, Object.class);
 		assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+	}
+
+	@Test
+	public void postUser_whenUserIsValid_receiveApiError(){
+		User user = new User();
+		ResponseEntity<ApiError> response = postSignup(user, ApiError.class);
+		assertThat(response.getBody().getUrl()).isEqualTo(API_1_0_USERS);
+
+	}
+	@Test
+	public void postUser_whenUserIsValid_receiveApiErrorWithValidationErrors(){
+		User user = new User();
+		ResponseEntity<ApiError> response = postSignup(user, ApiError.class);
+		assertThat(response.getBody().getValidationErrors().size()).isEqualTo(3);
+
 	}
 
 
