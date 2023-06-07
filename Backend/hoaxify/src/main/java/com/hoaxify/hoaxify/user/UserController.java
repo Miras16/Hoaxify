@@ -2,9 +2,12 @@ package com.hoaxify.hoaxify.user;
 
 import com.hoaxify.hoaxify.shared.GenericResponce;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.validation.Valid;
 
 @RestController
 public class UserController {
@@ -13,7 +16,7 @@ public class UserController {
 	UserService userService;
 	
 	@PostMapping("/api/1.0/users")
-	GenericResponce createUser(@RequestBody User user) {
+	GenericResponce createUser(@Valid @RequestBody User user) {
 
 		userService.save(user);
 		return new GenericResponce("User saved!");
