@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="error messages">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="custom constraint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,8 @@
       <workItem from="1686113325042" duration="4001000" />
       <workItem from="1686117402589" duration="913000" />
       <workItem from="1686118504120" duration="5464000" />
-      <workItem from="1686199950838" duration="5186000" />
+      <workItem from="1686199950838" duration="7224000" />
+      <workItem from="1686292780256" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -255,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686201957258</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="custom constraint">
+      <created>1686206654875</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686206654875</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +277,7 @@
     <MESSAGE value="user validation" />
     <MESSAGE value="error modelling" />
     <MESSAGE value="error messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="error messages" />
+    <MESSAGE value="custom constraint" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom constraint" />
   </component>
 </project>
