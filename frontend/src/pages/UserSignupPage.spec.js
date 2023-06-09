@@ -1,15 +1,11 @@
 import React from 'react';
 import {
   render,
-  cleanup,
   fireEvent,
   waitForDomChange,
   waitForElement
 } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
 import { UserSignupPage } from './UserSignupPage';
-
-beforeEach(cleanup);
 
 describe('UserSignupPage', () => {
   describe('Layout', () => {
@@ -213,25 +209,6 @@ describe('UserSignupPage', () => {
       const spinner = queryByText('Loading...');
       expect(spinner).not.toBeInTheDocument();
     });
-    it('displays validation error for displayName when error is received for the field', async () => {
-      const actions = {
-        postSignup: jest.fn().mockRejectedValue({
-          response: {
-            data: {
-              validationErrors: {
-                displayName: 'Cannot be null'
-              }
-            }
-          }
-        })
-      }
-      const { queryByText } = setupForSubmit({ actions });
-      fireEvent.click(button);
-
-      const errorMessage = await waitForElement(() => queryByText('Cannot be null'));
-      expect(errorMessage).toBeInTheDocument();
-
-    })
 
     it('displays validation error for displayName when error is received for the field', async () => {
       const actions = {
@@ -244,14 +221,15 @@ describe('UserSignupPage', () => {
             }
           }
         })
-      }
+      };
       const { queryByText } = setupForSubmit({ actions });
       fireEvent.click(button);
 
-      const errorMessage = await waitForElement(() => queryByText('Cannot be null'));
+      const errorMessage = await waitForElement(() =>
+        queryByText('Cannot be null')
+      );
       expect(errorMessage).toBeInTheDocument();
-
-    })
+    });
   });
 });
 
