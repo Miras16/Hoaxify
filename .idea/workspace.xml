@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="login">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="login  errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/error/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/error/ApiError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/shared/GenericResponce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/shared/GenericResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;b2d4ef3180c6e068d39094c8d421b676&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -71,7 +75,7 @@
       <recent name="com.hoaxify.hoaxify" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginControllerTest">
+  <component name="RunManager" selected="JUnit.hoaxify in hoaxify">
     <configuration name="LoginControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
       <extension name="coverage">
@@ -87,18 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginControllerTest.postLogin_withoutUserCredentials_receiveUnauthorized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hoaxify.hoaxify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hoaxify.hoaxify" />
-      <option name="MAIN_CLASS_NAME" value="com.hoaxify.hoaxify.LoginControllerTest" />
-      <option name="METHOD_NAME" value="postLogin_withoutUserCredentials_receiveUnauthorized" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,22 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.postUser_whenUserIsValid_receiveOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hoaxify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hoaxify.hoaxify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hoaxify.hoaxify" />
-      <option name="MAIN_CLASS_NAME" value="com.hoaxify.hoaxify.UserControllerTest" />
-      <option name="METHOD_NAME" value="postUser_whenUserIsValid_receiveOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
       <extension name="coverage">
@@ -149,6 +130,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hoaxify in hoaxify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hoaxify" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HoaxifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hoaxify" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hoaxify.hoaxify.HoaxifyApplication" />
@@ -158,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hoaxify in hoaxify" />
+        <item itemvalue="JUnit.UserControllerTest (1)" />
         <item itemvalue="JUnit.LoginControllerTest" />
         <item itemvalue="JUnit.UserRepositoryTest" />
         <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="JUnit.LoginControllerTest.postLogin_withoutUserCredentials_receiveUnauthorized" />
-        <item itemvalue="JUnit.UserControllerTest.postUser_whenUserIsValid_receiveOk" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +176,8 @@
       <workItem from="1686409317332" duration="1041000" />
       <workItem from="1686410428332" duration="3049000" />
       <workItem from="1686414587600" duration="1496000" />
-      <workItem from="1686552067099" duration="4028000" />
+      <workItem from="1686552067099" duration="8915000" />
+      <workItem from="1686578349230" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -343,11 +333,29 @@
       <option name="project" value="LOCAL" />
       <updated>1686416035099</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="login  errors">
+      <created>1686558760732</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686558760732</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="success-response-body" />
@@ -368,6 +376,7 @@
     <MESSAGE value="form-input component" />
     <MESSAGE value="clientside validation" />
     <MESSAGE value="login" />
-    <option name="LAST_COMMIT_MESSAGE" value="login" />
+    <MESSAGE value="login  errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="login  errors" />
   </component>
 </project>
