@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="authentication">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="authenticated user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/TestUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -173,7 +175,9 @@
       <workItem from="1686552067099" duration="8915000" />
       <workItem from="1686578349230" duration="891000" />
       <workItem from="1686638822740" duration="11000" />
-      <workItem from="1686658945658" duration="1498000" />
+      <workItem from="1686658945658" duration="1668000" />
+      <workItem from="1686711492748" duration="107000" />
+      <workItem from="1686749476078" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -343,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686578951383</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="authenticated user">
+      <created>1686674596823</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686674596823</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +392,7 @@
     <MESSAGE value="login" />
     <MESSAGE value="login  errors" />
     <MESSAGE value="authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication" />
+    <MESSAGE value="authenticated user" />
+    <option name="LAST_COMMIT_MESSAGE" value="authenticated user" />
   </component>
 </project>
