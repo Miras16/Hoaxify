@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { UserSignupPage } from './pages/UserSignupPage';
+import { LoginPage } from './pages/LoginPage';
 import * as apiCalls from './api/apiCalls';
 
 const actions = {
@@ -10,7 +11,7 @@ const actions = {
 };
 
 ReactDOM.render(
-  <UserSignupPage actions={actions} />,
+  <LoginPage actions={actions} />,
   document.getElementById('root')
 );
 
