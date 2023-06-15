@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment=" click handling">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="react router" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +173,7 @@
       <workItem from="1686711492748" duration="107000" />
       <workItem from="1686749476078" duration="1737000" />
       <workItem from="1686751533327" duration="2207000" />
-      <workItem from="1686813553147" duration="609000" />
+      <workItem from="1686813553147" duration="3692000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -380,7 +378,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686752911704</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="sending request to backend">
+      <created>1686814433215</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686814433215</updated>
+    </task>
+    <task id="LOCAL-00031" summary="progress indicator">
+      <created>1686815107425</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686815107425</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adding new pages">
+      <created>1686815868841</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686815868841</updated>
+    </task>
+    <task id="LOCAL-00033" summary="react router">
+      <created>1686817037551</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686817037551</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,10 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="success-response-body" />
-    <MESSAGE value="hashing-password" />
-    <MESSAGE value="user-signup-page-first-test" />
-    <MESSAGE value="signup-form-layout" />
     <MESSAGE value="handling-input-changes" />
     <MESSAGE value="handling-button-click" />
     <MESSAGE value="styling" />
@@ -423,6 +445,10 @@
     <MESSAGE value="login page" />
     <MESSAGE value="handling input change" />
     <MESSAGE value=" click handling" />
-    <option name="LAST_COMMIT_MESSAGE" value=" click handling" />
+    <MESSAGE value="sending request to backend" />
+    <MESSAGE value="progress indicator" />
+    <MESSAGE value="adding new pages" />
+    <MESSAGE value="react router" />
+    <option name="LAST_COMMIT_MESSAGE" value="react router" />
   </component>
 </project>
