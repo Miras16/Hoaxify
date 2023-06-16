@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="react router" />
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="login success routing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +175,8 @@
       <workItem from="1686711492748" duration="107000" />
       <workItem from="1686749476078" duration="1737000" />
       <workItem from="1686751533327" duration="2207000" />
-      <workItem from="1686813553147" duration="3692000" />
+      <workItem from="1686813553147" duration="4409000" />
+      <workItem from="1686904734849" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -406,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686817037551</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="login success routing">
+      <created>1686817725817</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686817725817</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handling-input-changes" />
     <MESSAGE value="handling-button-click" />
     <MESSAGE value="styling" />
     <MESSAGE value="sending-request-to-backend" />
@@ -449,6 +458,7 @@
     <MESSAGE value="progress indicator" />
     <MESSAGE value="adding new pages" />
     <MESSAGE value="react router" />
-    <option name="LAST_COMMIT_MESSAGE" value="react router" />
+    <MESSAGE value="login success routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="login success routing" />
   </component>
 </project>
