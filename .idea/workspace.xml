@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="login success routing">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="redux initial configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +176,9 @@
       <workItem from="1686749476078" duration="1737000" />
       <workItem from="1686751533327" duration="2207000" />
       <workItem from="1686813553147" duration="4409000" />
-      <workItem from="1686904734849" duration="363000" />
+      <workItem from="1686904734849" duration="3098000" />
+      <workItem from="1686984966260" duration="14000" />
+      <workItem from="1686995260091" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -416,7 +418,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686817725817</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="signup success routing">
+      <created>1686905268017</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686905268017</updated>
+    </task>
+    <task id="LOCAL-00036" summary="top bar">
+      <created>1686920937939</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686920937939</updated>
+    </task>
+    <task id="LOCAL-00037" summary="redux initial configuration">
+      <created>1686926845796</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1686926845796</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,9 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handling-button-click" />
-    <MESSAGE value="styling" />
-    <MESSAGE value="sending-request-to-backend" />
     <MESSAGE value="progress-indicator" />
     <MESSAGE value="user validation" />
     <MESSAGE value="error modelling" />
@@ -459,6 +479,9 @@
     <MESSAGE value="adding new pages" />
     <MESSAGE value="react router" />
     <MESSAGE value="login success routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="login success routing" />
+    <MESSAGE value="signup success routing" />
+    <MESSAGE value="top bar" />
+    <MESSAGE value="redux initial configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux initial configuration" />
   </component>
 </project>
