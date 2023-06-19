@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="connecting login page to redux" />
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="combining login and signup actions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +178,7 @@
       <workItem from="1686984966260" duration="14000" />
       <workItem from="1686995260091" duration="2600000" />
       <workItem from="1687155642841" duration="184000" />
-      <workItem from="1687175713220" duration="1508000" />
+      <workItem from="1687175713220" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -460,7 +460,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687176929102</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="connecting user signup page to redux">
+      <created>1687177421992</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1687177421992</updated>
+    </task>
+    <task id="LOCAL-00042" summary="redux middleware">
+      <created>1687178491089</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178491089</updated>
+    </task>
+    <task id="LOCAL-00043" summary="combining login and signup actions">
+      <created>1687179433099</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1687179433099</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,9 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="error messages" />
-    <MESSAGE value="custom constraint" />
-    <MESSAGE value="displaying validation errors" />
     <MESSAGE value="form input component" />
     <MESSAGE value="form-input component" />
     <MESSAGE value="clientside validation" />
@@ -503,6 +521,9 @@
     <MESSAGE value="connecting to redux" />
     <MESSAGE value="dispatching action" />
     <MESSAGE value="connecting login page to redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="connecting login page to redux" />
+    <MESSAGE value="connecting user signup page to redux" />
+    <MESSAGE value="redux middleware" />
+    <MESSAGE value="combining login and signup actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="combining login and signup actions" />
   </component>
 </project>
