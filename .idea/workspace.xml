@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="combining login and signup actions" />
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="axios authorization configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +70,7 @@
       <recent name="com.hoaxify.hoaxify" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HoaxifyApplication">
+  <component name="RunManager" selected="JUnit.hoaxify in hoaxify">
     <configuration name="LoginControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
       <extension name="coverage">
@@ -90,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.getUsers_whenThereAreNoUsersInDB_receiveOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +105,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hoaxify.hoaxify" />
       <option name="MAIN_CLASS_NAME" value="com.hoaxify.hoaxify.UserControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="getUsers_whenThereAreNoUsersInDB_receiveOK" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.hoaxify in hoaxify" />
+        <item itemvalue="JUnit.UserControllerTest.getUsers_whenThereAreNoUsersInDB_receiveOK" />
         <item itemvalue="JUnit.UserControllerTest (1)" />
         <item itemvalue="JUnit.LoginControllerTest" />
         <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +184,9 @@
       <workItem from="1686984966260" duration="14000" />
       <workItem from="1686995260091" duration="2600000" />
       <workItem from="1687155642841" duration="184000" />
-      <workItem from="1687175713220" duration="3902000" />
+      <workItem from="1687175713220" duration="5383000" />
+      <workItem from="1687251651770" duration="17000" />
+      <workItem from="1687280749094" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -481,7 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687179433099</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="storing state in local storage">
+      <created>1687185013115</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1687185013115</updated>
+    </task>
+    <task id="LOCAL-00045" summary="axios authorization configuration">
+      <created>1687185833950</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1687185833950</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,8 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="form input component" />
-    <MESSAGE value="form-input component" />
     <MESSAGE value="clientside validation" />
     <MESSAGE value="login" />
     <MESSAGE value="login  errors" />
@@ -524,6 +544,8 @@
     <MESSAGE value="connecting user signup page to redux" />
     <MESSAGE value="redux middleware" />
     <MESSAGE value="combining login and signup actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="combining login and signup actions" />
+    <MESSAGE value="storing state in local storage" />
+    <MESSAGE value="axios authorization configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="axios authorization configuration" />
   </component>
 </project>
