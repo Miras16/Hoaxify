@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="get users">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="user modelling jsonview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,7 +70,7 @@
       <recent name="com.hoaxify.hoaxify" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in hoaxify">
+  <component name="RunManager" selected="JUnit.hoaxify in hoaxify">
     <configuration name="LoginControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hoaxify" />
       <extension name="coverage">
@@ -136,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in hoaxify" />
         <item itemvalue="JUnit.hoaxify in hoaxify" />
+        <item itemvalue="JUnit.java in hoaxify" />
         <item itemvalue="JUnit.UserControllerTest.getUsers_whenThereAreNoUsersInDB_receiveOK" />
         <item itemvalue="JUnit.UserControllerTest (1)" />
         <item itemvalue="JUnit.LoginControllerTest" />
@@ -180,7 +180,8 @@
       <workItem from="1687175713220" duration="5383000" />
       <workItem from="1687251651770" duration="17000" />
       <workItem from="1687280749094" duration="3274000" />
-      <workItem from="1687325444446" duration="1719000" />
+      <workItem from="1687325444446" duration="2404000" />
+      <workItem from="1687450928318" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -504,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687283415301</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="user modelling jsonview">
+      <created>1687327198256</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1687327198256</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="login" />
     <MESSAGE value="login  errors" />
     <MESSAGE value="authentication" />
     <MESSAGE value="authenticated user" />
@@ -547,6 +554,7 @@
     <MESSAGE value="storing state in local storage" />
     <MESSAGE value="axios authorization configuration" />
     <MESSAGE value="get users" />
-    <option name="LAST_COMMIT_MESSAGE" value="get users" />
+    <MESSAGE value="user modelling jsonview" />
+    <option name="LAST_COMMIT_MESSAGE" value="user modelling jsonview" />
   </component>
 </project>
