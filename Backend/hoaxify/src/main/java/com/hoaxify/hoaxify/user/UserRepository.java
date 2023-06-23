@@ -9,8 +9,7 @@ import java.util.List;
 
 public interface UserRepository extends JpaRepository<User, Long>{
     User  findByUsername(String username);
-    @Query(value = "Select u from User u")
-    Page<UserProjection> getAllUsersProjections(Pageable pageable);
+
 
 
 }
