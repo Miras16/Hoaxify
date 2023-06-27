@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="user modelling projection">
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="user modelling userVM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserProjection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,9 @@
       <workItem from="1687280749094" duration="3274000" />
       <workItem from="1687325444446" duration="2404000" />
       <workItem from="1687450928318" duration="1306000" />
-      <workItem from="1687479577420" duration="919000" />
+      <workItem from="1687479577420" duration="5036000" />
+      <workItem from="1687691504122" duration="596000" />
+      <workItem from="1687874934600" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="success-response-body">
       <created>1685881703508</created>
@@ -523,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687451624998</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="user modelling userVM">
+      <created>1687480630220</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1687480630220</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="authentication" />
     <MESSAGE value="authenticated user" />
     <MESSAGE value="user view model" />
     <MESSAGE value="login page" />
@@ -566,6 +574,7 @@
     <MESSAGE value="get users" />
     <MESSAGE value="user modelling jsonview" />
     <MESSAGE value="user modelling projection" />
-    <option name="LAST_COMMIT_MESSAGE" value="user modelling projection" />
+    <MESSAGE value="user modelling userVM" />
+    <option name="LAST_COMMIT_MESSAGE" value="user modelling userVM" />
   </component>
 </project>

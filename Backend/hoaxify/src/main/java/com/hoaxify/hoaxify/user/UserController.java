@@ -6,6 +6,7 @@ import com.hoaxify.hoaxify.shared.GenericResponse;
 import com.hoaxify.hoaxify.user.vm.UserVM;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -33,8 +34,8 @@ public class UserController {
 
 	}
 	@GetMapping("/users")
-	Page<UserVM> getUsers(){
-		return userService.getUsers().map((user) -> new UserVM((User) user));
+	Page<UserVM> getUsers(Pageable page){
+		return userService.getUsers(page).map((user) -> new UserVM((User) user));
 
 	}
 

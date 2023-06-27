@@ -24,9 +24,7 @@ public class UserService {
 		return userRepository.save(user);
 	}
 
-	public Page<?> getUsers() {
-		Pageable pageable = PageRequest.of(0,10);
-
+	public Page<?> getUsers(Pageable pageable) {
 		return userRepository.findAll(pageable);
 	}
 }
