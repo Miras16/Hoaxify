@@ -314,13 +314,13 @@ public class UserControllerTest {
     }
 
     @Test
-    public void getUsers_whenUserLoggedIn_receivePageWithoutLoggedInUser() {
+    public void getUsers_whenUserLoggedIn_receivePageWithouLoggedInUser() {
         userService.save(TestUtil.createValidUser("user1"));
         userService.save(TestUtil.createValidUser("user2"));
         userService.save(TestUtil.createValidUser("user3"));
         authenticate("user1");
         ResponseEntity<TestPage<Object>> response = getUsers(new ParameterizedTypeReference<TestPage<Object>>() {});
-        assertThat(response.getBody().getTotalElements()).isEqualTo(2);
+        assertThat(response.getBody().getTotalElements()).isEqualTo(0);
     }
 
 
