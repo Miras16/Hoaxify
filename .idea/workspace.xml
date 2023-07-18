@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="excluding logged in user">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/HoaxifyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/main/java/com/hoaxify/hoaxify/HoaxifyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/hoaxify/src/test/java/com/hoaxify/hoaxify/UserControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa0f9f3f-2029-4d1d-a122-f8868f4e0b62" name="Changes" comment="creating random users" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +192,7 @@
       <workItem from="1687928187038" duration="48000" />
       <workItem from="1687972749709" duration="105000" />
       <workItem from="1688014558925" duration="16000" />
-      <workItem from="1689680983468" duration="2269000" />
-    </task>
-    <task id="LOCAL-00003" summary="user-signup-page-first-test">
-      <created>1685887750065</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685887750065</updated>
+      <workItem from="1689680983468" duration="2704000" />
     </task>
     <task id="LOCAL-00004" summary="signup-form-layout">
       <created>1685945239687</created>
@@ -541,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687972813949</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="creating random users">
+      <created>1689691502938</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689691502938</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="login page" />
     <MESSAGE value="handling input change" />
     <MESSAGE value=" click handling" />
     <MESSAGE value="sending request to backend" />
@@ -584,6 +579,7 @@
     <MESSAGE value="user modelling userVM" />
     <MESSAGE value="pagination" />
     <MESSAGE value="excluding logged in user" />
-    <option name="LAST_COMMIT_MESSAGE" value="excluding logged in user" />
+    <MESSAGE value="creating random users" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating random users" />
   </component>
 </project>
